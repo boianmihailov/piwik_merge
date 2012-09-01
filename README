@@ -1,0 +1,17 @@
+Version: 1.1 / 01.09.2012
+Author: Boian Mihailov <boian.mihailov@gmail.com>
+Original Author:  Jan-Kaspar Münnich <jan@dotplex.de>
+
+Description:
+Script to import data from one Piwik installation into another.
+This version works with Piwik version 1.8.3, probably there will be database structure changes in later versions.
+You should run this script in the shell with `php piwik_merge.php` since it could run very long.
+If the imported data doesn't show in Piwik, make sure that the created date of the site is not after the first (imported) visit.
+
+Important notice:
+I've written this script because I needed to merge two Piwik installations.
+It worked for me and this task, but maybe it won't work for you.
+The script is just quick work and may contain bugs or security issues.
+I just wanted to share this script in case it could help somebody.
+
+Its also important to make sure that timestamp for your new piwik site is set correctly to display imported stats. 
